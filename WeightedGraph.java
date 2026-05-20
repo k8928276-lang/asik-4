@@ -14,8 +14,7 @@ public class WeightedGraph<V> {
 
     public void addEdge(Vertex<V> source, Vertex<V> dest, double weight) {
         source.addAdjacentVertex(dest, weight);
-        // Если граф неориентированный, раскомментируй строку ниже:
-        // dest.addAdjacentVertex(source, weight);
+        
     }
 
     public List<Vertex<V>> getVertices() {
