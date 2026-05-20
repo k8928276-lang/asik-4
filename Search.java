@@ -1,7 +1,7 @@
 import java.util.*;
 
 public abstract class Search<V> {
-    protected Map<Vertex<V>, Vertex<V>> edgeTo; // Путь: откуда мы пришли в эту вершину
+    protected Map<Vertex<V>, Vertex<V>> edgeTo; 
     protected Vertex<V> source;
 
     public Search(Vertex<V> source) {
