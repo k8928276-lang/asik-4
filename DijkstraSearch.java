@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class DijkstraSearch<V> extends Search<V> {
-    private Map<Vertex<V>, Double> distTo; // Расстояния от источника
+    private Map<Vertex<V>, Double> distTo; 
     private PriorityQueue<Vertex<V>> pq;
 
     public DijkstraSearch(Vertex<V> source) {
