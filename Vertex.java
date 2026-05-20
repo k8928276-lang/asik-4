@@ -3,7 +3,7 @@ import java.util.Map;
 
 public class Vertex<V> {
     private V data;
-    // Карта, где ключ — соседняя вершина, а значение — вес ребра до неё
+
     private Map<Vertex<V>, Double> adjacentVertices;
 
     public Vertex(V data) {
